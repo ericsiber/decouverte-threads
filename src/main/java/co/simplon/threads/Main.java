@@ -6,5 +6,11 @@ public class Main {
 			System.out.println("Coucou");
 			Thread.sleep(1000);
 		}
+		
+		// Eclipse dit "Unreachable code"
+		while (true) {
+			System.out.println("J'ai faim");
+			Thread.sleep(1500);
+		}
 	}
 }
